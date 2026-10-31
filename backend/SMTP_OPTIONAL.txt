@@ -1,0 +1,9 @@
+Optional values to add to your existing backend/.env (DO NOT replace its SECRET_KEY):
+SMTP_HOST=smtp.example.com
+SMTP_PORT=587
+SMTP_TLS=true
+SMTP_USER=your-smtp-user
+SMTP_PASSWORD=your-smtp-password
+SMTP_FROM=helpdesk@example.com
+
+No SMTP settings are required for in-app alerts. Never commit real credentials.
